@@ -1,0 +1,7 @@
+
+framework module PureOCFramework {
+  umbrella header "PureOCFramework.h"
+
+  export *
+  module * { export * }
+}

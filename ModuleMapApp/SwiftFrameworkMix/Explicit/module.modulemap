@@ -1,0 +1,11 @@
+module Explicit {
+  explicit module A {  // explicit 只能在子模块中使用，在没有一个目录时也会帮你生成对应的 module
+    header "A.h"
+    export *
+  }
+
+  explicit module B {
+    header "B.h"
+    export *
+  }
+}

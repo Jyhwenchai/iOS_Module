@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		66F5926A29752AB400EA580C /* AlipaySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66F5926B29752AB400EA580C /* Build configuration list for PBXAggregateTarget "AlipaySDK" */;
+			buildPhases = (
+				66F5926E29752AB900EA580C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AlipaySDK;
+			productName = AlipaySDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6636276C2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6636276B2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663627752974EA4C00994ABC /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 663627732974EA4C00994ABC /* AlipaySDK.bundle */; };
+		663627762974EA4C00994ABC /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627742974EA4C00994ABC /* AlipaySDK.framework */; };
+		663627792974EA7D00994ABC /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627782974EA7D00994ABC /* libresolv.tbd */; };
+		6636277B2974EA8300994ABC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636277A2974EA8200994ABC /* CoreText.framework */; };
+		6636277D2974EA8B00994ABC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636277C2974EA8A00994ABC /* CFNetwork.framework */; };
+		6636277F2974EA9B00994ABC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636277E2974EA9B00994ABC /* CoreMotion.framework */; };
+		663627812974EAA300994ABC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627802974EAA300994ABC /* CoreGraphics.framework */; };
+		663627832974EAAE00994ABC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627822974EAAE00994ABC /* libc++.tbd */; };
+		663627852974EABF00994ABC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627842974EABF00994ABC /* WebKit.framework */; };
+		663627872974EACA00994ABC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627862974EAC900994ABC /* QuartzCore.framework */; };
+		663627892974EAD100994ABC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663627882974EAD000994ABC /* CoreTelephony.framework */; };
+		6636278B2974EADB00994ABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636278A2974EADB00994ABC /* SystemConfiguration.framework */; };
+		6636278D2974EAED00994ABC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636278C2974EAED00994ABC /* libz.tbd */; };
+		66F592602974EC4A00EA580C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5925F2974EC4A00EA580C /* Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F5926F29752B3F00EA580C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6636275F2974EA2600994ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F5926A29752AB400EA580C;
+			remoteInfo = AlipaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663627682974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NestingOCFrameworkToSwiftFramework.framework; path = "/Users/caizhiwen/Desktop/workspace/github_project/my_project/iOS_Module/NestingOCFrameworkToSwiftFramework/build/Debug-iphoneos/NestingOCFrameworkToSwiftFramework.framework"; sourceTree = "<absolute>"; };
+		6636276B2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestingOCFrameworkToSwiftFramework.h; sourceTree = "<group>"; };
+		663627732974EA4C00994ABC /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		663627742974EA4C00994ABC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		663627782974EA7D00994ABC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		6636277A2974EA8200994ABC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		6636277C2974EA8A00994ABC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6636277E2974EA9B00994ABC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		663627802974EAA300994ABC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		663627822974EAAE00994ABC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		663627842974EABF00994ABC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/iOSSupport/System/Library/PrivateFrameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		663627862974EAC900994ABC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		663627882974EAD000994ABC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		6636278A2974EADB00994ABC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		6636278C2974EAED00994ABC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		66F5925F2974EC4A00EA580C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663627652974EA2600994ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636278D2974EAED00994ABC /* libz.tbd in Frameworks */,
+				6636278B2974EADB00994ABC /* SystemConfiguration.framework in Frameworks */,
+				663627892974EAD100994ABC /* CoreTelephony.framework in Frameworks */,
+				663627872974EACA00994ABC /* QuartzCore.framework in Frameworks */,
+				663627852974EABF00994ABC /* WebKit.framework in Frameworks */,
+				663627832974EAAE00994ABC /* libc++.tbd in Frameworks */,
+				663627812974EAA300994ABC /* CoreGraphics.framework in Frameworks */,
+				6636277F2974EA9B00994ABC /* CoreMotion.framework in Frameworks */,
+				6636277D2974EA8B00994ABC /* CFNetwork.framework in Frameworks */,
+				6636277B2974EA8300994ABC /* CoreText.framework in Frameworks */,
+				663627792974EA7D00994ABC /* libresolv.tbd in Frameworks */,
+				663627762974EA4C00994ABC /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6636275E2974EA2600994ABC = {
+			isa = PBXGroup;
+			children = (
+				6636276A2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework */,
+				663627772974EA7D00994ABC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6636276A2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6636276B2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.h */,
+				66F5925F2974EC4A00EA580C /* Test.swift */,
+				663627732974EA4C00994ABC /* AlipaySDK.bundle */,
+				663627742974EA4C00994ABC /* AlipaySDK.framework */,
+			);
+			path = NestingOCFrameworkToSwiftFramework;
+			sourceTree = "<group>";
+		};
+		663627772974EA7D00994ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6636278C2974EAED00994ABC /* libz.tbd */,
+				6636278A2974EADB00994ABC /* SystemConfiguration.framework */,
+				663627882974EAD000994ABC /* CoreTelephony.framework */,
+				663627862974EAC900994ABC /* QuartzCore.framework */,
+				663627842974EABF00994ABC /* WebKit.framework */,
+				663627822974EAAE00994ABC /* libc++.tbd */,
+				663627802974EAA300994ABC /* CoreGraphics.framework */,
+				6636277E2974EA9B00994ABC /* CoreMotion.framework */,
+				6636277C2974EA8A00994ABC /* CFNetwork.framework */,
+				6636277A2974EA8200994ABC /* CoreText.framework */,
+				663627782974EA7D00994ABC /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		663627632974EA2600994ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636276C2974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		663627672974EA2600994ABC /* NestingOCFrameworkToSwiftFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6636276F2974EA2600994ABC /* Build configuration list for PBXNativeTarget "NestingOCFrameworkToSwiftFramework" */;
+			buildPhases = (
+				663627632974EA2600994ABC /* Headers */,
+				663627642974EA2600994ABC /* Sources */,
+				663627652974EA2600994ABC /* Frameworks */,
+				663627662974EA2600994ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F5927029752B3F00EA580C /* PBXTargetDependency */,
+			);
+			name = NestingOCFrameworkToSwiftFramework;
+			productName = NestingOCFrameworkToSwiftFramework;
+			productReference = 663627682974EA2600994ABC /* NestingOCFrameworkToSwiftFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6636275F2974EA2600994ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					663627672974EA2600994ABC = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					66F5926A29752AB400EA580C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 663627622974EA2600994ABC /* Build configuration list for PBXProject "NestingOCFrameworkToSwiftFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6636275E2974EA2600994ABC;
+			productRefGroup = 6636275E2974EA2600994ABC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663627672974EA2600994ABC /* NestingOCFrameworkToSwiftFramework */,
+				66F5926A29752AB400EA580C /* AlipaySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663627662974EA2600994ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663627752974EA4C00994ABC /* AlipaySDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66F5926E29752AB900EA580C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -d \"${BUILT_PRODUCTS_DIR}/AlipaySDK\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/AlipaySDK directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/AlipaySDK\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/AlipaySDK/module.modulemap\"\nmodule AliPaySDK {\n    header \"${PROJECT_DIR}/NestingOCFrameworkToSwiftFramework/AlipaySDK.framework/Headers/AlipaySDK.h\"\n    export *\n}\nEOF\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663627642974EA2600994ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F592602974EC4A00EA580C /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F5927029752B3F00EA580C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F5926A29752AB400EA580C /* AlipaySDK */;
+			targetProxy = 66F5926F29752B3F00EA580C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6636276D2974EA2600994ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6636276E2974EA2600994ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		663627702974EA2600994ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DTH85SS4GJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NestingOCFrameworkToSwiftFramework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.czw.pro.NestingOCFrameworkToSwiftFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/NestingOCFrameworkToSwiftFramework";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		663627712974EA2600994ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DTH85SS4GJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NestingOCFrameworkToSwiftFramework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.czw.pro.NestingOCFrameworkToSwiftFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/NestingOCFrameworkToSwiftFramework";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66F5926C29752AB400EA580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTH85SS4GJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F5926D29752AB400EA580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTH85SS4GJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663627622974EA2600994ABC /* Build configuration list for PBXProject "NestingOCFrameworkToSwiftFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636276D2974EA2600994ABC /* Debug */,
+				6636276E2974EA2600994ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6636276F2974EA2600994ABC /* Build configuration list for PBXNativeTarget "NestingOCFrameworkToSwiftFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663627702974EA2600994ABC /* Debug */,
+				663627712974EA2600994ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F5926B29752AB400EA580C /* Build configuration list for PBXAggregateTarget "AlipaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F5926C29752AB400EA580C /* Debug */,
+				66F5926D29752AB400EA580C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6636275F2974EA2600994ABC /* Project object */;
+}

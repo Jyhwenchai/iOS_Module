@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:MainModule/MainModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SubModule1/SubModule1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SubModule2/SubModule2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SubModule3/SubModule3.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,11 @@
+
+module OCSubModule {
+    header "OCSubModule.h"
+    export *
+    
+    module Child {  // OCSubModule 的子 module
+      header "Child/ChildTest.h"
+      export *
+    }
+
+}

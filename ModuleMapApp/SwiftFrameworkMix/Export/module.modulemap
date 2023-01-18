@@ -1,0 +1,11 @@
+module Export {
+  explicit module Base {
+    header "Base.h"
+    export *
+  }
+
+  explicit module Derived {
+    header "Derived.h"
+    export Base     
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Start'/>
+        <page name='How to create  Static library (.a file)'/>
+        <page name='How to create  Static library (.a file)-Swift'/>
+        <page name='Modular - Using Multiple Framework Project In Workspace'/>
+        <page name='Modular - Using Multiple Framework  Project In Workspace-Swift'/>
+        <page name='Using Pod Manage Multiple Project Dependency'/>
+        <page name='Using  Thirdpart OC Framework In Swift Framework'/>
+        <page name='ModuleMap Basic'/>
+        <page name='ModuleMap Mix OC To Swift Framework'/>
+        <page name='Using ModuleMap In Static Library'/>
+        <page name='Create and usage XCFramework'/>
+    </pages>
+</playground>

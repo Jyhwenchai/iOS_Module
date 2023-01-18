@@ -1,0 +1,13 @@
+
+framework module SwiftFrameworkMix {
+  umbrella header "SwiftFrameworkMix.h"
+  
+  export *
+  module * { export * }
+
+//  explicit module HelloWorld {
+//      header "Hello.h"
+//      export *
+//  }
+}
+

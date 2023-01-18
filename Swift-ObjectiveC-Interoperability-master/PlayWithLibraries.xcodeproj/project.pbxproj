@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551EF806238AA57100982035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF805238AA57100982035 /* AppDelegate.swift */; };
+		551EF808238AA57100982035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF807238AA57100982035 /* SceneDelegate.swift */; };
+		551EF80A238AA57100982035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF809238AA57100982035 /* ViewController.swift */; };
+		551EF80D238AA57100982035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551EF80B238AA57100982035 /* Main.storyboard */; };
+		551EF80F238AA57300982035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551EF80E238AA57300982035 /* Assets.xcassets */; };
+		551EF812238AA57300982035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551EF810238AA57300982035 /* LaunchScreen.storyboard */; };
+		551EF842238AAF5600982035 /* SwiftOneFileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF841238AAF5600982035 /* SwiftOneFileA.swift */; };
+		551EF85B238AD21200982035 /* ObjCOneFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF85A238AD21200982035 /* ObjCOneFileA.m */; };
+		551EF85E238AD2A400982035 /* ObjCTwoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF85D238AD2A400982035 /* ObjCTwoFile.m */; };
+		551EF865238AD66400982035 /* ObjectiveLibraryOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551EF866238AD68900982035 /* ObjCTwoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF85C238AD2A400982035 /* ObjCTwoFile.h */; };
+		551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EF86D238C1FED00982035 /* ObjCAppTarget.m */; };
+		551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF870238C250F00982035 /* SwiftAppTarget.swift */; };
+		553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */; };
+		55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */; };
+		55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; };
+		554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */ = {isa = PBXBuildFile; fileRef = 551EF859238AD21200982035 /* ObjCOneFileA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556BA7282483D7E500B038DE /* libMixLibraryTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */; };
+		5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */; };
+		558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */; };
+		558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */; };
+		55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */; };
+		55929AFD23B055840043C6A9 /* MixLibraryThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 55929AFC23B055840043C6A9 /* MixLibraryThree.m */; };
+		55929AFE23B055840043C6A9 /* MixLibraryThree.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55929AFB23B055840043C6A9 /* MixLibraryThree.h */; };
+		55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */; };
+		55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */; };
+		55C16CCE23CA2D6000309CBC /* MixLibOneObjcFileB.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556BA7262483D7CE00B038DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55929AED23AF9E210043C6A9;
+			remoteInfo = MixLibraryTwo;
+		};
+		5586F3F423B9AB6500AFD5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55929AF823B055840043C6A9;
+			remoteInfo = MixLibraryThree;
+		};
+		55929B0823B096D10043C6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558AC0BF23AC6142005FD5B7;
+			remoteInfo = MixLibraryOne;
+		};
+		55990F9D238E263B002059F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551EF84C238AD07800982035;
+			remoteInfo = ObjectiveLibraryOne;
+		};
+		55990F9F238E263F002059F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EF7FA238AA57000982035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551EF839238AAEEC00982035;
+			remoteInfo = SwiftLibraryOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		551EF838238AAEEC00982035 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558AC0BE23AC6142005FD5B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				558AC0D323ACACB4005FD5B7 /* MixLibOneObjcFileA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55929AF723B055840043C6A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				55929AFE23B055840043C6A9 /* MixLibraryThree.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55990FA4238E2B68002059F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				55443864238FEDE300368F89 /* ObjCOneFileA.h in CopyFiles */,
+				55443863238FEDD500368F89 /* ObjectiveLibraryOne.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		551EF802238AA57100982035 /* PlayWithLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EF805238AA57100982035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		551EF807238AA57100982035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		551EF809238AA57100982035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		551EF80C238AA57100982035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		551EF80E238AA57300982035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551EF811238AA57300982035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		551EF813238AA57300982035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EF841238AAF5600982035 /* SwiftOneFileA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOneFileA.swift; sourceTree = "<group>"; };
+		551EF843238AC2DD00982035 /* SwiftLibraryOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwiftLibraryOne.xcconfig; sourceTree = "<group>"; };
+		551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EF859238AD21200982035 /* ObjCOneFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCOneFileA.h; sourceTree = "<group>"; };
+		551EF85A238AD21200982035 /* ObjCOneFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCOneFileA.m; sourceTree = "<group>"; };
+		551EF85C238AD2A400982035 /* ObjCTwoFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCTwoFile.h; sourceTree = "<group>"; };
+		551EF85D238AD2A400982035 /* ObjCTwoFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCTwoFile.m; sourceTree = "<group>"; };
+		551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveLibraryOne.h; sourceTree = "<group>"; };
+		551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ObjectiveCLibraryOne.xcconfig; sourceTree = "<group>"; };
+		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
+		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
+		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
+		5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryTwoObjCFileA.h; sourceTree = "<group>"; };
+		5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryTwoObjCFileA.m; sourceTree = "<group>"; };
+		5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibThree.xcconfig; sourceTree = "<group>"; };
+		5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibTwo.xcconfig; sourceTree = "<group>"; };
+		558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MixLibOne.xcconfig; sourceTree = "<group>"; };
+		558AC0CB23AC7DA8005FD5B7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibOneObjcFileA.h; sourceTree = "<group>"; };
+		558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibOneObjcFileA.m; sourceTree = "<group>"; };
+		558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixLibOneSwiftOne.swift; sourceTree = "<group>"; };
+		55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixLibraryTwo.swift; sourceTree = "<group>"; };
+		55929AF923B055840043C6A9 /* libMixLibraryThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixLibraryThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55929AFB23B055840043C6A9 /* MixLibraryThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryThree.h; sourceTree = "<group>"; };
+		55929AFC23B055840043C6A9 /* MixLibraryThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibraryThree.m; sourceTree = "<group>"; };
+		55C16CCC23CA2D6000309CBC /* MixLibOneObjcFileB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibOneObjcFileB.h; sourceTree = "<group>"; };
+		55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLibOneObjcFileB.m; sourceTree = "<group>"; };
+		55D6B5A323D54FC3007E8982 /* MixLibraryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixLibraryOne.h; sourceTree = "<group>"; };
+		6636271029715BC300994ABC /* PlayWithLibraries-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlayWithLibraries-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551EF7FF238AA57000982035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556BA7282483D7E500B038DE /* libMixLibraryTwo.a in Frameworks */,
+				55990FA2238E2652002059F8 /* libSwiftLibraryOne.a in Frameworks */,
+				55990FA1238E264C002059F8 /* libObjectiveLibraryOne.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EF837238AAEEC00982035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EF84A238AD07800982035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551EF7F9238AA57000982035 = {
+			isa = PBXGroup;
+			children = (
+				552BBE4E23BB1DE5005EDE88 /* Modules */,
+				551EF804238AA57100982035 /* PlayWithLibraries */,
+				551EF83B238AAEEC00982035 /* SwiftLibraryOne */,
+				551EF84E238AD07800982035 /* ObjectiveLibraryOne */,
+				558AC0C123AC6142005FD5B7 /* MixLibraryOne */,
+				55929AEF23AF9E210043C6A9 /* MixLibraryTwo */,
+				55929AFA23B055840043C6A9 /* MixLibraryThree */,
+				551EF803238AA57100982035 /* Products */,
+				551EF846238AC37400982035 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		551EF803238AA57100982035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551EF802238AA57100982035 /* PlayWithLibraries.app */,
+				551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */,
+				551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */,
+				558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */,
+				55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */,
+				55929AF923B055840043C6A9 /* libMixLibraryThree.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551EF804238AA57100982035 /* PlayWithLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				6636271029715BC300994ABC /* PlayWithLibraries-Bridging-Header.h */,
+				551EF813238AA57300982035 /* Info.plist */,
+				551EF874238CB65700982035 /* Swift */,
+				551EF86F238C1FFB00982035 /* Objc */,
+				551EF86B238C191900982035 /* views+others */,
+			);
+			path = PlayWithLibraries;
+			sourceTree = "<group>";
+		};
+		551EF83B238AAEEC00982035 /* SwiftLibraryOne */ = {
+			isa = PBXGroup;
+			children = (
+				551EF841238AAF5600982035 /* SwiftOneFileA.swift */,
+				551EF843238AC2DD00982035 /* SwiftLibraryOne.xcconfig */,
+			);
+			path = SwiftLibraryOne;
+			sourceTree = "<group>";
+		};
+		551EF846238AC37400982035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		551EF84E238AD07800982035 /* ObjectiveLibraryOne */ = {
+			isa = PBXGroup;
+			children = (
+				551EF859238AD21200982035 /* ObjCOneFileA.h */,
+				551EF85A238AD21200982035 /* ObjCOneFileA.m */,
+				551EF85C238AD2A400982035 /* ObjCTwoFile.h */,
+				551EF85D238AD2A400982035 /* ObjCTwoFile.m */,
+				551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */,
+				551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */,
+			);
+			path = ObjectiveLibraryOne;
+			sourceTree = "<group>";
+		};
+		551EF86B238C191900982035 /* views+others */ = {
+			isa = PBXGroup;
+			children = (
+				551EF805238AA57100982035 /* AppDelegate.swift */,
+				551EF807238AA57100982035 /* SceneDelegate.swift */,
+				551EF80B238AA57100982035 /* Main.storyboard */,
+				551EF810238AA57300982035 /* LaunchScreen.storyboard */,
+				551EF80E238AA57300982035 /* Assets.xcassets */,
+			);
+			name = "views+others";
+			sourceTree = "<group>";
+		};
+		551EF86F238C1FFB00982035 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				551EF86C238C1FED00982035 /* ObjCAppTarget.h */,
+				551EF86D238C1FED00982035 /* ObjCAppTarget.m */,
+			);
+			name = Objc;
+			sourceTree = "<group>";
+		};
+		551EF874238CB65700982035 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				551EF870238C250F00982035 /* SwiftAppTarget.swift */,
+				551EF809238AA57100982035 /* ViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		552BBE4E23BB1DE5005EDE88 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				558AC0CB23AC7DA8005FD5B7 /* module.modulemap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		558AC0C123AC6142005FD5B7 /* MixLibraryOne */ = {
+			isa = PBXGroup;
+			children = (
+				558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */,
+				558AC0D023ACA7EC005FD5B7 /* MixLibOneSwiftOne.swift */,
+				558AC0CD23ACA4C0005FD5B7 /* MixLibOneObjcFileA.h */,
+				558AC0CE23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m */,
+				55C16CCC23CA2D6000309CBC /* MixLibOneObjcFileB.h */,
+				55C16CCD23CA2D6000309CBC /* MixLibOneObjcFileB.m */,
+				55D6B5A323D54FC3007E8982 /* MixLibraryOne.h */,
+			);
+			path = MixLibraryOne;
+			sourceTree = "<group>";
+		};
+		55929AEF23AF9E210043C6A9 /* MixLibraryTwo */ = {
+			isa = PBXGroup;
+			children = (
+				55929AF023AF9E210043C6A9 /* MixLibraryTwo.swift */,
+				5586F3EE23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.h */,
+				5586F3EF23B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m */,
+				5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */,
+			);
+			path = MixLibraryTwo;
+			sourceTree = "<group>";
+		};
+		55929AFA23B055840043C6A9 /* MixLibraryThree */ = {
+			isa = PBXGroup;
+			children = (
+				55929AFB23B055840043C6A9 /* MixLibraryThree.h */,
+				55929AFC23B055840043C6A9 /* MixLibraryThree.m */,
+				5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */,
+			);
+			path = MixLibraryThree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		551EF848238ACF2300982035 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EF864238AD64600982035 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EF865238AD66400982035 /* ObjectiveLibraryOne.h in Headers */,
+				554438652390CC4E00368F89 /* ObjCOneFileA.h in Headers */,
+				551EF866238AD68900982035 /* ObjCTwoFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		551EF801238AA57000982035 /* PlayWithLibraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EF82C238AA57300982035 /* Build configuration list for PBXNativeTarget "PlayWithLibraries" */;
+			buildPhases = (
+				551EF7FE238AA57000982035 /* Sources */,
+				551EF7FF238AA57000982035 /* Frameworks */,
+				551EF800238AA57000982035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556BA7272483D7CE00B038DE /* PBXTargetDependency */,
+				55990FA0238E263F002059F8 /* PBXTargetDependency */,
+				55990F9E238E263B002059F8 /* PBXTargetDependency */,
+			);
+			name = PlayWithLibraries;
+			productName = PlayWithLibraries;
+			productReference = 551EF802238AA57100982035 /* PlayWithLibraries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551EF839238AAEEC00982035 /* SwiftLibraryOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EF83E238AAEEC00982035 /* Build configuration list for PBXNativeTarget "SwiftLibraryOne" */;
+			buildPhases = (
+				551EF848238ACF2300982035 /* Headers */,
+				551EF836238AAEEC00982035 /* Sources */,
+				551EF837238AAEEC00982035 /* Frameworks */,
+				551EF838238AAEEC00982035 /* CopyFiles */,
+				55641F2E239BFBB9005A6722 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLibraryOne;
+			productName = SwiftLibraryOne;
+			productReference = 551EF83A238AAEEC00982035 /* libSwiftLibraryOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		551EF84C238AD07800982035 /* ObjectiveLibraryOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EF853238AD07800982035 /* Build configuration list for PBXNativeTarget "ObjectiveLibraryOne" */;
+			buildPhases = (
+				551EF849238AD07800982035 /* Sources */,
+				551EF864238AD64600982035 /* Headers */,
+				551EF84A238AD07800982035 /* Frameworks */,
+				55990FA4238E2B68002059F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveLibraryOne;
+			productName = ObjectiveLibraryOne;
+			productReference = 551EF84D238AD07800982035 /* libObjectiveLibraryOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		558AC0BF23AC6142005FD5B7 /* MixLibraryOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */;
+			buildPhases = (
+				558AC0BC23AC6142005FD5B7 /* Sources */,
+				558AC0BE23AC6142005FD5B7 /* CopyFiles */,
+				5586F3F223B8FA1D00AFD5E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixLibraryOne;
+			productName = MixLibraryOne;
+			productReference = 558AC0C023AC6142005FD5B7 /* libMixLibraryOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55929AED23AF9E210043C6A9 /* MixLibraryTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55929AF423AF9E210043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryTwo" */;
+			buildPhases = (
+				55929AEA23AF9E210043C6A9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5586F3F523B9AB6500AFD5E4 /* PBXTargetDependency */,
+			);
+			name = MixLibraryTwo;
+			productName = MixLibraryTwo;
+			productReference = 55929AEE23AF9E210043C6A9 /* libMixLibraryTwo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55929AF823B055840043C6A9 /* MixLibraryThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55929AFF23B055840043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryThree" */;
+			buildPhases = (
+				55929AF523B055840043C6A9 /* Sources */,
+				55929AF723B055840043C6A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55929B0923B096D10043C6A9 /* PBXTargetDependency */,
+			);
+			name = MixLibraryThree;
+			productName = MixLibraryThree;
+			productReference = 55929AF923B055840043C6A9 /* libMixLibraryThree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551EF7FA238AA57000982035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ashis Laha";
+				TargetAttributes = {
+					551EF801238AA57000982035 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					551EF839238AAEEC00982035 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					551EF84C238AD07800982035 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					558AC0BF23AC6142005FD5B7 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					55929AED23AF9E210043C6A9 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					55929AF823B055840043C6A9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 551EF7FD238AA57000982035 /* Build configuration list for PBXProject "PlayWithLibraries" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551EF7F9238AA57000982035;
+			productRefGroup = 551EF803238AA57100982035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551EF801238AA57000982035 /* PlayWithLibraries */,
+				551EF839238AAEEC00982035 /* SwiftLibraryOne */,
+				551EF84C238AD07800982035 /* ObjectiveLibraryOne */,
+				558AC0BF23AC6142005FD5B7 /* MixLibraryOne */,
+				55929AF823B055840043C6A9 /* MixLibraryThree */,
+				55929AED23AF9E210043C6A9 /* MixLibraryTwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551EF800238AA57000982035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EF812238AA57300982035 /* LaunchScreen.storyboard in Resources */,
+				551EF80F238AA57300982035 /* Assets.xcassets in Resources */,
+				551EF80D238AA57100982035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55641F2E239BFBB9005A6722 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n";
+		};
+		5586F3F223B8FA1D00AFD5E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# target mode\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# target directory is Project root directory\ntarget_dir=${SRCROOT}/include/\ntarget_simulator_dir=${target_dir}/${DEVICE_SIMULATOR}/\ntarget_device_dir=${target_dir}/${DEVICE_OS}/\n\n# Ensure the target include path exists\nmkdir -p ${target_dir}\nmkdir -p ${target_simulator_dir}\nmkdir -p ${target_device_dir}\n\n# Copy any file that looks like a Swift generated header to the include path\ncp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied target directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\n   cp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${target_simulator_dir}\"\nfi\n\n# copy swift modules from iPhones device build (if it exists) to the copied target directory\nDEVICE_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PRODUCT_MODULE_NAME}.swiftmodule\"\n\nif [ -d \"${DEVICE_SWIFT_MODULES_DIR}\" ]; then\n   cp -R \"${DEVICE_SWIFT_MODULES_DIR}\" \"${target_device_dir}\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551EF7FE238AA57000982035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */,
+				551EF80A238AA57100982035 /* ViewController.swift in Sources */,
+				551EF806238AA57100982035 /* AppDelegate.swift in Sources */,
+				551EF808238AA57100982035 /* SceneDelegate.swift in Sources */,
+				551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EF836238AAEEC00982035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EF842238AAF5600982035 /* SwiftOneFileA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EF849238AD07800982035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EF85E238AD2A400982035 /* ObjCTwoFile.m in Sources */,
+				551EF85B238AD21200982035 /* ObjCOneFileA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558AC0BC23AC6142005FD5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553B378C23B5D6D2008CE1C0 /* MixLibOneSwiftOne.swift in Sources */,
+				55C16CCE23CA2D6000309CBC /* MixLibOneObjcFileB.m in Sources */,
+				558AC0CF23ACA4C0005FD5B7 /* MixLibOneObjcFileA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55929AEA23AF9E210043C6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55929AF123AF9E210043C6A9 /* MixLibraryTwo.swift in Sources */,
+				5586F3F123B8ED9000AFD5E4 /* MixLibraryTwoObjCFileA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55929AF523B055840043C6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55929AFD23B055840043C6A9 /* MixLibraryThree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556BA7272483D7CE00B038DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55929AED23AF9E210043C6A9 /* MixLibraryTwo */;
+			targetProxy = 556BA7262483D7CE00B038DE /* PBXContainerItemProxy */;
+		};
+		5586F3F523B9AB6500AFD5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55929AF823B055840043C6A9 /* MixLibraryThree */;
+			targetProxy = 5586F3F423B9AB6500AFD5E4 /* PBXContainerItemProxy */;
+		};
+		55929B0923B096D10043C6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558AC0BF23AC6142005FD5B7 /* MixLibraryOne */;
+			targetProxy = 55929B0823B096D10043C6A9 /* PBXContainerItemProxy */;
+		};
+		55990F9E238E263B002059F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551EF84C238AD07800982035 /* ObjectiveLibraryOne */;
+			targetProxy = 55990F9D238E263B002059F8 /* PBXContainerItemProxy */;
+		};
+		55990FA0238E263F002059F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551EF839238AAEEC00982035 /* SwiftLibraryOne */;
+			targetProxy = 55990F9F238E263F002059F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		551EF80B238AA57100982035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551EF80C238AA57100982035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		551EF810238AA57300982035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551EF811238AA57300982035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551EF82A238AA57300982035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551EF82B238AA57300982035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551EF82D238AA57300982035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/",
+					"${inherited}",
+					"${SRCROOT}/Modules/",
+				);
+				INFOPLIST_FILE = PlayWithLibraries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashis.laha.PlayWithLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "PlayWithLibraries-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551EF82E238AA57300982035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFNUCJJ56P;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/include/",
+					"${inherited}",
+					"${SRCROOT}/Modules/",
+				);
+				INFOPLIST_FILE = PlayWithLibraries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashis.laha.PlayWithLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWithLibraries-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "PlayWithLibraries-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551EF83F238AAEEC00982035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EF843238AC2DD00982035 /* SwiftLibraryOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551EF840238AAEEC00982035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EF843238AC2DD00982035 /* SwiftLibraryOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551EF854238AD07800982035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551EF855238AD07800982035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		558AC0C623AC6142005FD5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558AC0C723AC6142005FD5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558AC0CA23AC7D19005FD5B7 /* MixLibOne.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55929AF223AF9E210043C6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55929AF323AF9E210043C6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F823B9DDAD00AFD5E4 /* MixLibTwo.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55929B0023B055840043C6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55929B0123B055840043C6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5586F3F323B9A8C900AFD5E4 /* MixLibThree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551EF7FD238AA57000982035 /* Build configuration list for PBXProject "PlayWithLibraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EF82A238AA57300982035 /* Debug */,
+				551EF82B238AA57300982035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551EF82C238AA57300982035 /* Build configuration list for PBXNativeTarget "PlayWithLibraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EF82D238AA57300982035 /* Debug */,
+				551EF82E238AA57300982035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551EF83E238AAEEC00982035 /* Build configuration list for PBXNativeTarget "SwiftLibraryOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EF83F238AAEEC00982035 /* Debug */,
+				551EF840238AAEEC00982035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551EF853238AD07800982035 /* Build configuration list for PBXNativeTarget "ObjectiveLibraryOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EF854238AD07800982035 /* Debug */,
+				551EF855238AD07800982035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558AC0C823AC6142005FD5B7 /* Build configuration list for PBXNativeTarget "MixLibraryOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558AC0C623AC6142005FD5B7 /* Debug */,
+				558AC0C723AC6142005FD5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55929AF423AF9E210043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55929AF223AF9E210043C6A9 /* Debug */,
+				55929AF323AF9E210043C6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55929AFF23B055840043C6A9 /* Build configuration list for PBXNativeTarget "MixLibraryThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55929B0023B055840043C6A9 /* Debug */,
+				55929B0123B055840043C6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551EF7FA238AA57000982035 /* Project object */;
+}

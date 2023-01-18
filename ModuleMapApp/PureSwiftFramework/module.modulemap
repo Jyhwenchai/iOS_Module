@@ -1,0 +1,8 @@
+
+framework module PureSwiftFramework {
+  umbrella header "PureSwiftFramework.h"
+
+  export *
+  module * { export * }
+}
+

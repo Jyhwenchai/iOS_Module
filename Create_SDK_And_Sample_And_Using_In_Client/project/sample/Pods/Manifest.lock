@@ -1,0 +1,20 @@
+PODS:
+  - Lantern (1.1.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Lantern (~> 1.1.4)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Lantern
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Lantern: 26ed71b2d9ace5073ecf53521e316ed8b95acdb0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: b701e50c6feba00ec2f91034bee507f0869c1cbd
+
+COCOAPODS: 1.11.3

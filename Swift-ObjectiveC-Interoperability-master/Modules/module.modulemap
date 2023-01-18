@@ -1,0 +1,19 @@
+module ObjectiveLibraryOne {
+  umbrella header "../ObjectiveLibraryOne/ObjectiveLibraryOne.h"
+  requires ios
+  export *
+}
+
+module MixLibraryOne {
+    umbrella header "../MixLibraryOne/MixLibraryOne.h"
+    //header "../MixLibraryOne/MixLibOneObjcFileA.h"
+    //header "../MixLibraryOne/MixLibOneObjcFileB.h"
+    requires ios
+    export *
+}
+
+module MixLibThree {
+    header "../MixLibraryThree/MixLibraryThree.h"
+    requires ios
+	export *
+}
